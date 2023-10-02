@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--<style>
+        #blk {
+            background-color:crimson;
+            padding:20px;
+        }
+    </style>-->
+</head>
+<body>
+    <h3>.innerHTML and .innerText</h3>
+    
+    <div id="blk"></div>
+    <div id="blk1"></div>
+<hr>
+
+<h2 id="txt1"> </h2>
+
+<script>
+  
+    document.getElementById("blk").innerHTML = "<h3>this is inner html content</h3>";
+    document.getElementById("blk1").innerText = "<h3>this is inner text content</h3>";
+
+
+    document.getElementById("txt1").innerText = "Welcom to java script";
+    document.getElementById("txt1").style.background = "deepskyblue";
+    document.getElementById("txt1").style.color = "#fff";
+    document.getElementById("txt1").style.padding = "20px";
+    document.getElementById("txt1").style.textAlign = "center";
+    document.getElementById("txt1").style.fontSize = "25px";
+
+
+
+</script>
+</body>
+</html>
